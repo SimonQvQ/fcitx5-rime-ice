@@ -16,7 +16,7 @@
 - **纵向候选列表**：选中项整行圆角高亮，冰蓝渐变 + 深色文字，对比清晰
 - **分级配色**：预编辑拼音、候选文字、注释、序号各自独立配色
 - **完整覆盖**：候选框、右键菜单、工具提示、翻页按钮、子菜单箭头、复选框
-- **纯配置 + SVG**：不含二进制资源，体积小（约 20 KB），易于修改和二次创作
+- **纯配置 + SVG**：不含二进制资源，整个主题不到 30 KB，易于修改和二次创作
 - 字体默认使用 **Noto Sans CJK SC 11**，可自行替换
 
 > 主题作用于 **fcitx5 经典界面（Classic UI）**。如果你在 Linux 上通过 fcitx5 使用 Rime，那么 Rime 的 `weasel.yaml` / `squirrel.yaml` 皮肤不会生效，需要修改的正是本主题。
@@ -122,6 +122,13 @@ MenuFont="Noto Sans CJK SC 12"
 rm -rf ~/.local/share/fcitx5/themes/rimeice
 # 把 classicui.conf 里的 Theme/DarkTheme 改回 default-dark
 ```
+
+## 🧪 测试环境
+
+- fcitx5 5.1.23（Arch Linux / CachyOS）
+- Wayland（niri）
+- Noto Sans CJK SC 11
+- 配合 Rime（雾凇拼音）使用
 
 ## 📄 License
 
