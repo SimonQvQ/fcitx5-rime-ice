@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48" height="48" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="panelFill" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#201c2b"/>
+      <stop offset="1" stop-color="#14121c"/>
+    </linearGradient>
+  </defs>
+  <rect x="0.5" y="0.5" width="47" height="47" rx="14" ry="14"
+        fill="url(#panelFill)" stroke="#93ccff" stroke-opacity="0.38" stroke-width="1"/>
+</svg>
